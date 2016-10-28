@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, intitial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <title> Marine Mammals </title>
+</head>
+<body>
+  <div class="container col-lg-12">
+  <h1>Marine Mammals</h1>
+  <p class="lead"> Marine mammals have various adaptations and charateristics that distinguish them from other aquatic animals and mammals. 23% of them are currently threatened. This quiz will assess your knowledge of marine mammals. Source: <a href= "https://en.wikipedia.org/wiki/Marine_mammal"> Marine mammals - Wikipedia </a> </p>
+<form>
+
+<div class="form-group">
+  <label for="inputName">Your name</label>
+    <input class="form-control" name="Name" type="text" id="inputName" placeholder="Your name">
+</div>
+
+<div class="form-group">
+  <label for="inputMarineMammal">Name a marine mammal.</label>
+    <input class="form-control" name ="Marine Mammal" type="text" id="inputMarineMammal" placeholder="Marine mammal">
+</div>
+
+<div class="form-group">
+  <label>Which of the following is an apex predator?</label>
+    <div class="radio">
+      <label>
+        <input type="radio" id="kelp" name = "animal" value="kelp">
+        Kelp
+      </label>
+    </div>
+
+    <div class="radio">
+      <label>
+        <input type="radio" id="killerwhale" name = "animal" value="killerwhale">
+        Killer Whale
+      </label>
+    </div>
+
+    <div class="radio">
+      <label>
+        <input type="radio" id="seaurchin" name = "animal" value="seaurchin">
+        Sea Urchin
+      </label>
+    </div>
+
+    <div class="radio">
+      <label>
+        <input type="radio" id="salmon" name ="animal" value="salmon">
+         Salmon
+      </label>
+    </div>
+</div>
+
+<div class="form-group">
+<label> Which of the following is a threat to marine mammals? </label>
+    <div class="checkbox">
+        <label>
+            <input type="checkbox" id="exploitation" name="marineMammal" value="exploitation">
+            Exploitation
+        </label>
+    </div>
+    <div class="checkbox">
+        <label>
+            <input type="checkbox" id="fisheries" name="marineMammal" value="fisheries">
+            Fisheries
+        </label>
+    </div>
+    <div class="checkbox">
+        <label>
+            <input type="checkbox" id="habitatLoss" name="marineMammal" value="habitatLoss">
+            Habitat Loss
+        </label>
+    </div>
+    <div class="checkbox">
+        <label>
+          <input type=checkbox id="elephants" name="marineMammal" value="elephants">
+          Elephants
+        </label>
+    </div>
+</div>
+
+<div class="form-group">
+  <label for="adaptation">Which do you think is the most important marine mammal adaptation?</label>
+    <select class="form-control" name="adaptation" id ="adaptation">
+        <option value="echolocation">Echolocation</option>
+        <option value="torpedoShapedBodies">Torpedo Shaped Bodies</option>
+        <option value="modifiedLimbs">Modified Limbs</option>
+        <option value="bradycardia">Bradycardia</option>
+        <option value="thermoregulation">Thermoregulation</option>
+        <option value="fur">Fur</option>
+        <option value="denseEpidermis">Dense Epidermis</option>
+        <option value="dorsalFins">Dorsal Fins</option>
+      </select>
+</div>
+
+<div class="form-group">
+<label> Why do you think marine mammals are interesting? </label>
+<textarea class="form-control" name="interest" id="inputReason" placeholder="Type your answer here"></textarea>
+</div>
+
+<input class="btn btn-primary
+  btn-block" type="submit" value="Submit"> <input class="btn btn-warning btn-block" type="reset" value="Reset">
+
+</form>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
